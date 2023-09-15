@@ -1,18 +1,10 @@
-# DigiFarm-Challenge
-1.Calculate NDVI Image Index:
-Compute the NDVI index from Near Infrared (NIR) and Red band image subsets.
+# Geospatial Data Analysis with Python
 
-2.Calculate Zonal Stats for Field Polygon:
-Calculate zonal statistics within a field polygon using an NDVI raster.
+This Python script demonstrates geospatial data analysis using various libraries such as Pandas, Geopandas, Rasterio, and more. It performs the following tasks:
 
-3.Find "Crop" Area in Field Polygon:
-Determine the "crop" area within a field polygon using land use classification.
-
-4.Analyze Time Series Data:
-Analyze mean, min, and max values of "evi_stdev" from time series data.
-
-5.Retrieve Field Polygon CRS:
-Retrieve the Coordinate Reference System (CRS) for the field polygon.
-
-6.Retrieve NIR CRS:
-Retrieve the Coordinate Reference System (CRS) for the Near Infrared (NIR) raster.
+1. Calculate the NDVI image index using the provided sample image subsets.
+2. Calculate zonal statistics for a provided field polygon.
+3. Determine the "crop" area for the field using a land use classification file.
+4. Load and analyze time-series data, finding the mean, min, and maximum values for a specific column.
+5. Identify the Coordinate Reference System (CRS) zone for a given shapefile.
+6. Determine the CRS zone for a raster file.
